@@ -1,0 +1,7 @@
+.header{
+    @apply w-full flex justify-between items-center bg-white border-0 py-4 px-6 rounded-2xl shadow-3xl mb-12
+}
+
+.header_text{
+    @apply text-2xl italic font-medium
+}

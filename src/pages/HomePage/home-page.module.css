@@ -1,0 +1,7 @@
+.products{
+    @apply flex flex-wrap items-center justify-between w-full max-w-[1000px] m-auto
+}
+
+.button{
+    @apply fixed bottom-10 right-20
+}  

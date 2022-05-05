@@ -1,0 +1,35 @@
+.product_detail{
+    @apply flex flex-col
+} 
+
+.product_detail_top{
+    @apply flex mb-12
+}
+
+.product_detail_image{
+    @apply shadow-3xl rounded-md w-full h-full max-w-[15rem] max-h-[15rem] object-contain bg-white 
+}
+
+.product_detail_texts{
+    @apply ml-12 flex flex-col justify-between
+}
+
+.product_detail_texts span:nth-child(1){
+    @apply text-4xl font-bold
+}
+
+.product_detail_texts span:nth-child(2){
+    @apply text-2xl font-bold
+}
+
+.divider{
+    @apply border-b-2 border-black mx-8 mb-8
+}
+
+.product_detail_description{
+    @apply flex flex-col
+}
+
+.product_detail_description span:nth-child(1){
+    @apply text-3xl mb-2
+}
