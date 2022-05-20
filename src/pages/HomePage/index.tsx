@@ -38,7 +38,7 @@ const HomePage: React.FC = () => {
     let searhedProducts: ProductType[] = [];
     for (let product of allProducts) {
       if (
-        product.name
+        product?.name
           .toLowerCase()
           .includes(search !== null ? search.toLowerCase() : "")
       ) {
@@ -54,7 +54,7 @@ const HomePage: React.FC = () => {
   const filterByCategory = (searchedProducts: ProductType[]) => {
     let filteredCategory: ProductType[] = []
     for (let product of searchedProducts) {
-      if (product.category.toLowerCase() === category?.toLowerCase()) {
+      if (product?.category?.toLowerCase() === category?.toLowerCase()) {
         filteredCategory = [...filteredCategory, product]
       }
     }
